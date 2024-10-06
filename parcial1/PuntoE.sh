@@ -5,4 +5,4 @@
   121  cat filtroBasico.txt
   122  sudo dmidecode -t chassis |grep Manufacturer >> filtroBasico.txt
   123  cat filtroBasico.txt
-}
+
