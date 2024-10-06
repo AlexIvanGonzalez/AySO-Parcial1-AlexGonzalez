@@ -1,6 +1,3 @@
-   64  pwd
-   65  ll
-   66  tree Examenes-UTN/
    67  sudo useradd developer
    68  cat /etc/passwd
    69  sudo groupadd grupoDevops
@@ -16,23 +13,18 @@
    79  sudo groupadd grupoDeveloper
    80  sudo usermod -aG grupoDeveloper devops
    81  id devops
-   82  sudo chmod -R 750 /Examenes-UTN/alumno_1
-   83  ls Examenes-UTN/
-   84  ll
-   85  cd Examenes-UTN/
-   86  ll
-   87  sudo chmod -R 750 /Examenes-UTN/alumno_1
-   88  sudo chmod -R 750 /alumno_1
-   89  cd ..
-   90  sudo chmod -R 750 /Examenes-UTN/alumno_1
-   91  ls Examenes-UTN/
-   92  sudo chmod -R 750 Examenes-UTN/alumno_1
-   93  sudo chmod -R 760 Examenes-UTN/alumno_2
-   94  sudo chmod -R 700 Examenes-UTN/alumno_3
-   95  sudo chmod -R 775 Examenes-UTN/profesores
-   96  whoami > /Examenes-UTN/alumno_1/validar.txt
-   97  whoami > Examenes-UTN/alumno_1/validar.txt
-   98  whoami > validar.txt
-   99  ll
-  100  history
+   82  sudo useradd diseñador
+   83  sudo chmod -R 750 Examenes-UTN/alumno_1
+   84  sudo chmod -R 760 Examenes-UTN/alumno_2
+   85  sudo chmod -R 700 Examenes-UTN/alumno_3
+   86  sudo chmod -R 775 Examenes-UTN/profesores
+   87  whoami > /Examenes-UTN/alumno_1/validar.txt
+   88  whoami > Examenes-UTN/alumno_1/validar.txt
+   89  whoami > validar.txt
+   90  sudo chown developer:developer Examenes-UTN/alumno_1
+   91  sudo chown developer:developer Examenes-UTN/alumno_2
+   92  sudo chown devops:devops Examenes-UTN/alumno_3
+   93  sudo chown diseñador:diseñador Examenes-UTN/profesores
+   94  ll
+   95  history
 
